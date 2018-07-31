@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MVVMTestApp.View.Customer"
+             Title="Customer List">
+
+    <StackLayout>
+        <Label Text="Customer List!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+        
+    <ListView ItemsSource="{Binding list}" SeparatorColor="Blue" HasUnevenRows="True">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                       
+                    <StackLayout Orientation="Horizontal"  Padding="5">
+                        <Image Source="{Binding Image}"/>
+                        <StackLayout HorizontalOptions="StartAndExpand">
+                            <Label Text="{Binding FirstName}" />
+                            <Label Text="{Binding LastName}"/>
+                        </StackLayout>
+                        <Button Text="Details" Clicked="Button_Clicked"/>
+                    </StackLayout>
+                       
+                    </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+        <Button Text="Click Me" BackgroundColor="Silver" FontAttributes="Bold" TextColor="Blue" Command="{Binding ListCommand}" CommandParameter="Jincy"/>
+    </StackLayout>
+</ContentPage>

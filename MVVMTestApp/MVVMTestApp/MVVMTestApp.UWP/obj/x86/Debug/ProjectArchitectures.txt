@@ -1,0 +1,1 @@
+C:\Jincy\AndroidApp\MVVMTestApp\MVVMTestApp\MVVMTestApp.UWP\MVVMTestApp.UWP.csproj;x86

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage NavigationPage.HasNavigationBar="False" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MVVMTestApp.View.login">
+
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+     
+        <StackLayout HeightRequest="100" WidthRequest="100">
+            <Image Source="user54.png" />
+        </StackLayout>
+        <StackLayout>
+            <Entry x:Name="username" Placeholder="UserName"/>
+            <Entry x:Name="password" Placeholder="Password" IsPassword="True"  />
+            <Button x:Name="Login_Btn" WidthRequest="100" Text="Login" TextColor="#fff" BackgroundColor="#13ADFF" Margin="0,20,0,0" Clicked="Login_Btn_Clicked"/>
+            <!--<Label Text="Forgot your Password ?" TextColor="#C9C7DE" FontSize="Small"/>-->
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
