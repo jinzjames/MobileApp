@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage NavigationPage.HasNavigationBar="False" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MVVMTestApp.View.LanguageSelector" 
+             BackgroundColor="White">
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Image HorizontalOptions="Center" WidthRequest="150" HeightRequest="150" Source="logo.png"/>
+        <Label Text="Welcome To CloudNews" FontSize="34" FontAttributes="Bold" TextColor="#757575" HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+        <Label Text="Please choose your prefered language" FontSize="18" TextColor="#757575" HorizontalOptions="Center"/>
+        <Picker x:Name="lang" Margin="0,20,0,0" Title="Choose Language" HorizontalOptions="Center" WidthRequest="200">
+            <Picker.Items>
+                <x:String>English</x:String>
+                <x:String>Arabic</x:String>
+            </Picker.Items>
+        </Picker>
+        <Button x:Name="lang_btn" Text="Let's Start" TextColor="#4dcdff" BorderColor="#4dcdff" BackgroundColor="#fff" WidthRequest="150" HorizontalOptions="Center" HeightRequest="50" Margin="0,20,0,0" Clicked="lang_btn_Clicked"/>
+    </StackLayout>
+</ContentPage>

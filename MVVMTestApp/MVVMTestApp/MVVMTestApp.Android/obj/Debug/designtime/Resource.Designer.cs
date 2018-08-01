@@ -2894,6 +2894,12 @@ namespace MVVMTestApp.Droid
 			// aapt resource value: 0x7F090104
 			public const int ic_vol_type_tv_light = 2131296516;
 			
+			// aapt resource value: 0x7F010002
+			public const int logban = 2130771970;
+			
+			// aapt resource value: 0x7F010003
+			public const int logo = 2130771971;
+			
 			// aapt resource value: 0x7F090105
 			public const int mr_button_connected_dark = 2131296517;
 			
@@ -2993,14 +2999,26 @@ namespace MVVMTestApp.Droid
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
+			// aapt resource value: 0x7F010008
+			public const int splash = 2130771976;
+			
+			// aapt resource value: 0x7F010004
+			public const int splashs6 = 2130771972;
+			
+			// aapt resource value: 0x7F010005
+			public const int splash_screen = 2130771973;
+			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
 			
 			// aapt resource value: 0x7F09006A
 			public const int tooltip_frame_light = 2131296362;
 			
-			// aapt resource value: 0x7F010002
-			public const int user54 = 2130771970;
+			// aapt resource value: 0x7F010006
+			public const int user = 2130771974;
+			
+			// aapt resource value: 0x7F010007
+			public const int user54 = 2130771975;
 			
 			static Drawable()
 			{
@@ -4577,6 +4595,9 @@ namespace MVVMTestApp.Droid
 			
 			// aapt resource value: 0x7F060003
 			public const int MainTheme_Base = 2131099651;
+			
+			// aapt resource value: 0x7F060005
+			public const int MyTheme_Splash = 2131099653;
 			
 			// aapt resource value: 0x7F1600AA
 			public const int Platform_AppCompat = 2132148394;

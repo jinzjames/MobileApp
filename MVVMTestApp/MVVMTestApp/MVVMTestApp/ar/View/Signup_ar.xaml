@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MVVMTestApp.ar.View.Signup_ar"
+             FlowDirection="RightToLeft">
+
+    <StackLayout>
+        <StackLayout Padding="20,20,20,20" HeightRequest="100" BackgroundColor="#4dcdff">
+            <Label TextColor="#fff" FontSize="32" FontAttributes="Bold" Text="سجل" VerticalOptions="Center"/>
+            <Label TextColor="#fff" FontSize="18"  Text="املأ النموذج وقدم" VerticalOptions="Center"/>
+        </StackLayout>
+        <StackLayout Margin="0,20,0,0" Padding="20,0,20,20">
+            <Entry Placeholder="الاسم الكامل"/>
+            <Entry Placeholder="البريد الإلكتروني" Keyboard="Email"/>
+            <Entry Placeholder="هاتف" Keyboard="Numeric"/>
+            <Entry Placeholder="كلمه السر" IsPassword="True"/>
+            <Entry Placeholder="تأكيد كلمة المرور" IsPassword="True"/>
+            <Picker Title="موقعك">
+                <Picker.Items>
+                    <x:String>دبي</x:String>
+                    <x:String>أبو ظبي</x:String>
+                    <x:String>الشارقة</x:String>
+                    <x:String>عجمان</x:String>
+                </Picker.Items>
+
+            </Picker>
+            <Button Text="خضع" Clicked="Button_Clicked3" BackgroundColor="#4dcdff" WidthRequest="150" Margin="0,20,0,0" TextColor="#fff"/>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="هل لديك حساب ؟ " TextColor="#757575" FontSize="18"/>
+                <Label Text="تسجيل الدخول هنا " TextColor="#4dcdff" FontSize="18">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

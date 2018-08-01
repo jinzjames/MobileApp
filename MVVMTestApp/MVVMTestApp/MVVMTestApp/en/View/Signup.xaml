@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MVVMTestApp.en.View.Signup">
+    <StackLayout>
+        <StackLayout Padding="20,20,20,20" HeightRequest="100" BackgroundColor="#4dcdff">
+            <Label TextColor="#fff" FontSize="32" FontAttributes="Bold" Text="Sign Up" VerticalOptions="Center"/>
+            <Label TextColor="#fff" FontSize="18"  Text="Fill the form and submit" VerticalOptions="Center"/>
+        </StackLayout>
+        <StackLayout Margin="0,20,0,0" Padding="20,0,20,20">
+            <Entry Placeholder="Full Name"/>
+            <Entry Placeholder="Email" Keyboard="Email"/>
+            <Entry Placeholder="Phone" Keyboard="Numeric"/>
+            <Entry Placeholder="Password" IsPassword="True"/>
+            <Entry Placeholder="Confirm Password" IsPassword="True"/>
+            <Picker Title="Location">
+                <Picker.Items>
+                    <x:String>Dubai</x:String>
+                    <x:String>Abu Dhabi</x:String>
+                    <x:String>Sharjha</x:String>
+                    <x:String>Ajman</x:String>
+                </Picker.Items>
+
+            </Picker>
+            <Button Text="Submit" Clicked="Button_Clicked3" BackgroundColor="#4dcdff" WidthRequest="150" Margin="0,20,0,0" TextColor="#fff"/>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Already have an account ? " TextColor="#757575" FontSize="18"/>
+                <Label Text="Login Here " TextColor="#4dcdff" FontSize="18">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

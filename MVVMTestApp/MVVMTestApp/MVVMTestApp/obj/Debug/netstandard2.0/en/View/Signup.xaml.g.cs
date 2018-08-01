@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("MVVMTestApp.View.Details.xaml", "View/Details.xaml", typeof(global::MVVMTestApp.View.Details))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("MVVMTestApp.en.View.Signup.xaml", "en/View/Signup.xaml", typeof(global::MVVMTestApp.en.View.Signup))]
 
-namespace MVVMTestApp.View {
+namespace MVVMTestApp.en.View {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("View\\Details.xaml")]
-    public partial class Details : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("en\\View\\Signup.xaml")]
+    public partial class Signup : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Details));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Signup));
         }
     }
 }

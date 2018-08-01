@@ -5,12 +5,14 @@
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <application android:label="MVVMTestApp.Android" android:supportsRtl="true" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:debuggable="true">
-    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/ic_launcher" android:label="MVVMTestApp" android:theme="@style/MainTheme" android:name="md561ed2976d1da1479d5b2c2b8d2c41ee7.MainActivity">
+    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/ic_launcher" android:label="MVVMTestApp" android:theme="@style/MainTheme" android:name="md561ed2976d1da1479d5b2c2b8d2c41ee7.MainActivity" />
+    <activity android:noHistory="true" android:theme="@style/MyTheme.Splash" android:name="md561ed2976d1da1479d5b2c2b8d2c41ee7.Splash">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <receiver android:enabled="true" android:exported="false" android:name="md51558244f76c53b6aeda52c8a337f2c37.PowerSaveModeBroadcastReceiver" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.companyname.MVVMTestApp.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">

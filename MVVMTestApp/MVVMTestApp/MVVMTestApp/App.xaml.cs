@@ -12,7 +12,13 @@ namespace MVVMTestApp
 		{
 			InitializeComponent();
 
-			MainPage = new NavigationPage(new login());
+            MainPage = new NavigationPage(new LanguageSelector())
+            {
+                BarBackgroundColor = Color.FromHex("4dcdff"),
+                BarTextColor = Color.White
+                
+
+            };
 		}
 
 		protected override void OnStart ()

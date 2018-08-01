@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("MVVMTestApp.View.login.xaml", "View/login.xaml", typeof(global::MVVMTestApp.View.login))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("MVVMTestApp.ar.View.login.xaml", "ar/View/login.xaml", typeof(global::MVVMTestApp.View.login))]
 
 namespace MVVMTestApp.View {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("View\\login.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("ar\\View\\login.xaml")]
     public partial class login : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

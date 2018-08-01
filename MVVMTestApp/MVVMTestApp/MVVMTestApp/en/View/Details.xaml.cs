@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace MVVMTestApp.View
+namespace MVVMTestApp.en.View
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Details : ContentPage

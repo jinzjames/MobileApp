@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("MVVMTestApp.View.Customer.xaml", "View/Customer.xaml", typeof(global::MVVMTestApp.View.Customer))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("MVVMTestApp.ar.View.Details_ar.xaml", "ar/View/Details_ar.xaml", typeof(global::MVVMTestApp.View.Details))]
 
 namespace MVVMTestApp.View {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("View\\Customer.xaml")]
-    public partial class Customer : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("ar\\View\\Details_ar.xaml")]
+    public partial class Details : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Customer));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Details));
         }
     }
 }

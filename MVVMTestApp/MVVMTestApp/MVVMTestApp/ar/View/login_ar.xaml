@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MVVMTestApp.ar.View.login_ar"
+             FlowDirection="RightToLeft">
+
+    <StackLayout>
+
+
+        <StackLayout HeightRequest="300">
+            <AbsoluteLayout>
+                <Image Source="logban.png" AbsoluteLayout.LayoutBounds="1,1,1,1" AbsoluteLayout.LayoutFlags="All"/>
+                <StackLayout VerticalOptions="Center" HorizontalOptions="Center" AbsoluteLayout.LayoutBounds="1,1,1,1" AbsoluteLayout.LayoutFlags="All" >
+                    <Image Source="user.png" VerticalOptions="Center" HeightRequest="100" WidthRequest="100" HorizontalOptions="Center"/>
+                    <Label Text="Login" FontSize="32" TextColor="#fff" HorizontalOptions="Center" FontAttributes="Bold"/>
+                </StackLayout>
+
+            </AbsoluteLayout>
+
+        </StackLayout>
+        <StackLayout Margin="20,30,20,20">
+            <Entry x:Name="username" Placeholder="اسم المستخدم" WidthRequest="250" HorizontalOptions="Center"/>
+            <Entry x:Name="password" Placeholder="كلمة المرور" IsPassword="True" WidthRequest="250" HorizontalOptions="Center"/>
+            <Button x:Name="Login_Btn" Clicked="Login_Btn_Clicked" Text="دخول" BackgroundColor="#4dcdff" TextColor="#fff" HorizontalOptions="Center" WidthRequest="150" HeightRequest="50" Margin="0,20,0,0"/>
+            <StackLayout HorizontalOptions="Center" Orientation="Horizontal" Margin="0,20,0,0">
+                <Label Text="ليس لديك حساب, " FontSize="18" TextColor="#757575"/>
+                <Label Text="اصنع واحدا" FontSize="18" TextColor="#4dcdff">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped">
+
+                        </TapGestureRecognizer>
+                    </Label.GestureRecognizers>
+                </Label>
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+
+
+
+    <!--<StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <StackLayout HeightRequest="100" WidthRequest="100">
+            <Image Source="user54.png" />
+        </StackLayout>
+        <StackLayout>
+            <Entry x:Name="username" Placeholder="اسم المستخدم"/>
+            <Entry x:Name="password" Placeholder="كلمة المرور" IsPassword="True"  />
+            <Button x:Name="Login_Btn" WidthRequest="100" Text="دخول" TextColor="#fff" BackgroundColor="#13ADFF" Margin="0,20,0,0" Clicked="Login_Btn_Clicked"/>
+            --><!--<Label Text="Forgot your Password ?" TextColor="#C9C7DE" FontSize="Small"/>--><!--
+        </StackLayout>
+    </StackLayout>-->
+</ContentPage>

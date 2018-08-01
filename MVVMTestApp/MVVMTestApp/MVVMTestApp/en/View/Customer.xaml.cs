@@ -8,7 +8,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using MVVMTestApp.ViewModel;
 
-namespace MVVMTestApp.View
+namespace MVVMTestApp.en.View
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Customer : ContentPage
