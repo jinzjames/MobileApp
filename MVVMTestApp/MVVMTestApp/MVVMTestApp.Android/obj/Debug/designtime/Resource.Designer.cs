@@ -3839,7 +3839,10 @@ namespace MVVMTestApp.Droid
 			public const int icon_round = 2130968579;
 			
 			// aapt resource value: 0x7F040004
-			public const int launcher_foreground = 2130968580;
+			public const int ic_launcher = 2130968580;
+			
+			// aapt resource value: 0x7F040005
+			public const int launcher_foreground = 2130968581;
 			
 			static Mipmap()
 			{

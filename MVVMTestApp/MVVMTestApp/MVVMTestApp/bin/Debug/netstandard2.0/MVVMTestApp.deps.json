@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "aa53b1f6d2adc9b89704900e74e847e46ad69c43"
+    "signature": "d588bfac4f97c1745cc949aa2f0eaa3f5c3c5f5d"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,7 +11,7 @@
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "Plugin.Multilingual": "1.0.2",
-          "Xamarin.Forms": "3.0.0.561731",
+          "Xamarin.Forms": "3.1.0.637273",
           "Xamarin.Forms.Localization": "1.0.0"
         },
         "runtime": {
@@ -33,7 +33,7 @@
           "lib/netstandard1.0/Plugin.Multilingual.dll": {}
         }
       },
-      "Xamarin.Forms/3.0.0.561731": {
+      "Xamarin.Forms/3.1.0.637273": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
           "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {},
@@ -42,7 +42,7 @@
       },
       "Xamarin.Forms.Localization/1.0.0": {
         "dependencies": {
-          "Xamarin.Forms": "3.0.0.561731"
+          "Xamarin.Forms": "3.1.0.637273"
         },
         "runtime": {
           "lib/netstandard2.0/Xamarin.Localization.dll": {}
@@ -77,12 +77,12 @@
       "path": "plugin.multilingual/1.0.2",
       "hashPath": "plugin.multilingual.1.0.2.nupkg.sha512"
     },
-    "Xamarin.Forms/3.0.0.561731": {
+    "Xamarin.Forms/3.1.0.637273": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ZnpuSybty6uZsgInJQD2QoYsjsdzPmu25EltSNJTnwgiQCW0MVZfwU6//jbt4Sf0ZfAiryi8MZFhU1I0NAP6Ew==",
-      "path": "xamarin.forms/3.0.0.561731",
-      "hashPath": "xamarin.forms.3.0.0.561731.nupkg.sha512"
+      "sha512": "sha512-iYIMlhf5BFutJiVYYfawEtMzq4vo9m5qdT7R/IeDD40ENsqxqMBmvwp1/VzfD0las3ptkE0vgUG57O7QcUJlow==",
+      "path": "xamarin.forms/3.1.0.637273",
+      "hashPath": "xamarin.forms.3.1.0.637273.nupkg.sha512"
     },
     "Xamarin.Forms.Localization/1.0.0": {
       "type": "package",
